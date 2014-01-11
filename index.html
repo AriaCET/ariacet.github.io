@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Ariacet.github.io</title>
+    <title>Asterisk RadIo Archetecture</title>
   </head>
 
   <body>
@@ -18,8 +18,8 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/AriaCET">View on GitHub</a>
 
-          <h1 id="project_title">Ariacet.github.io</h1>
-          <h2 id="project_tagline">Asterisk PA System</h2>
+          <h1 id="project_title"> <a href="index.html" >Asterisk RadIo Archetecture</a></h1>
+          <h2 id="project_tagline">Asterisk based Public Addressing System</h2>
 
         </header>
     </div>
@@ -28,16 +28,41 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
-<a name="welcome-to-aria" class="anchor" href="#welcome-to-aria"><span class="octicon octicon-link"></span></a>Welcome to ARIA.</h3>
+<a name="welcome-to-aria" class="anchor" href="#welcome-to-aria">
+<span class="octicon octicon-link"></span></a>Welcome to ARIA.</h3>
+<div>
+<p>
+  ARIA is an attempt to build a broadcasting system over local network which is flexible. 
+  Originally developed for in house use at <a href="http://cet.ac.in">College of Engineering, Trivandrum</a>.
+  ARIA is highly flexible and can be addressed by each node if one wishes so. It has four parts.
+<ul>
+  <li>Asterisk server at the center of the system.</li>
+  <li>A <a href="http://ariacet.github.io/aria-server/">web interface</a>
+  to control the server and the grouping of nodes.</li>
+  <li>A  <a href="http://ariacet.github.io/aria-client/">transmitter client</a>.</li>
+  <li>Speaker nodes</li>
+</ul>
+</p>
+<p>ARIA streamlines managing of a network based public addressing system in an organisation. 
+It uses the Asterisk Telephony server at the back and uses SIP/RTP protocols for data transfer.
+</p>
+<p>ARIA server doesn't do any magic of itself. It is simply an abstraction of the asterisk paging
+system so that users can manage it without messing with the asterisk configuration scripts.
+</p>
+</div>
 
-<p><a href="http://ariacet.herokuapp.com/">Wiki</a></p>
+<p>See <a href="http://ariacet.herokuapp.com/">Wiki</a> for more information.</p>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        <p class="copyright">
+          Created for <a href="http://www.cet.ac.in/">College Of Engineering, Trivandrum (CET)</a>, With financial assistance 
+          from <a href="http://www.cerd.cet.ac.in/">Centre for Engineering Research and Development(CERD)</a>.
+        </p>
+        <p align="center">Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
 
